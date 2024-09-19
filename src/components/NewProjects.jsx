@@ -6,7 +6,7 @@ const newProjects = [
   {
     title: 'Landingpage',
     imgUrl: reactLogo,
-    link:'#',
+    link:'https://github.com/OdaBStorebo/obslandingpage',
   },
   {
     title: 'Bachelor',
@@ -14,7 +14,6 @@ const newProjects = [
     link:'https://hvlopen.brage.unit.no/hvlopen-xmlui/handle/11250/3143703',
   }
 ]
-{/** */}
 
 function NewProjects() {
     return(
