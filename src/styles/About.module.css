@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+
+body {
+    font-family: 'Actor', sans-serif;
+    color: #333;
+}
+
+.picture {
+    width: 50%;
+    height: auto;
+}
+
+p {
+  max-width:75%;  
+  text-align: left;
+  margin: auto;
+  padding: 10px;
+}
+
+.readMoreBtn {
+    border: none;
+    background-color: rgba(233, 222, 242, 0.6);
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+
+.clamped {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+.expanded {
+    display: block;
+}
