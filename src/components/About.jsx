@@ -14,6 +14,7 @@ function About() {
           Jeg er straks ferigutdannet dataingeniør og ønsker å drive med web- og applikasjonsutvikling. 
           Jeg er veldig intressert å lære mer om brukeropplevelse og brukerinteraksjon.
           På denne siden finner du min kontaktinformasjon og mine prosjekter.
+          Nettsiden er under utvikling.
           </p>
             <button className={styles.readMoreBtn} onClick={() => setIsOpen(!isOpen)}>
               {isOpen ? 'Les mindre' : 'Les mer'}
