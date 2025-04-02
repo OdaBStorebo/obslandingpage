@@ -1,8 +1,8 @@
 
 import React from 'react';
-import './styles/App.css';
-import NavBar from './components/NavBar';
-import Header from './components/Header';
+//import './styles/App.css';
+//import NavBar from './components/NavBar';
+//import Header from './components/Header';
 import About from './components/About';
 import Contact from './components/Contact';
 import FeaturedProjects from './components/FeaturedProjects';
@@ -13,14 +13,14 @@ import OngoingProjects from './components/OngoingProjects';
 function App() {
   return (
     <div className="App">
-      <NavBar/>
-      <Header/>
+      {/*<NavBar/>*/}
+      {/*<Header/>*/}
       <About/>
-      <Contact/>
+      {/*<Contact/>
       <FeaturedProjects/>
       <NewProjects/>
       <CompletedProjects/>
-      <OngoingProjects/>
+      <OngoingProjects/>*/}
     </div>
   );
 }
