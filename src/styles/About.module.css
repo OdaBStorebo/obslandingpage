@@ -1,37 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
 
-body {
+.aboutContainer {
+    width: 25vw;
+    height: 100vh;
+    background-color: #F6DFFC;
     font-family: 'Actor', sans-serif;
     color: #333;
+    padding-left: 3%;
+    padding-top: 1%;
 }
 
 .picture {
-    width: 50%;
-    height: auto;
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+    padding-right: 10px;
+}
+
+.name{
+    display: block;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif; /*finn en fin google font*/
+    letter-spacing: 3px;
+}
+
+.nameIndent {
+    text-indent: 15px;
+}
+
+.align {
+    display: flex;
+    align-items: center;
 }
 
 p {
-  max-width:75%;  
+  max-width:80%;  
   text-align: left;
-  margin: auto;
-  padding: 10px;
-}
-
-.readMoreBtn {
-    border: none;
-    background-color: rgba(233, 222, 242, 0.6);
-    color: #333;
-    margin-left: 0;
-    margin-bottom: 10px;
-}
-
-.clamped {
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
-    overflow: hidden;
-}
-
-.expanded {
-    display: block;
+  font-size: 1.3em;
+  line-height: 1.6;
 }

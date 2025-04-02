@@ -3,23 +3,30 @@ import styles from '../styles/About.module.css';
 import profileImage from '../images/meg.jpg';
 
 function About() {
-  const [isOpen, setIsOpen] = useState(false);
-
+  
     return(
-      <article>
-        <h3>Om meg</h3>
+      <div className={styles.aboutContainer}>
+        <div className={styles.align}>
           <img src={profileImage} alt="Bilde av Oda" className={styles.picture}/>
-          <p className={isOpen ? styles.expanded :  styles.clamped}>
-          Hei og velkommen til min landingpage.
-          Jeg er straks ferigutdannet dataingeniør og ønsker å drive med web- og applikasjonsutvikling. 
-          Jeg er veldig intressert å lære mer om brukeropplevelse og brukerinteraksjon.
-          På denne siden finner du min kontaktinformasjon og mine prosjekter.
-          Nettsiden er under utvikling.
-          </p>
-            <button className={styles.readMoreBtn} onClick={() => setIsOpen(!isOpen)}>
-              {isOpen ? 'Les mindre' : 'Les mer'}
-            </button>
-      </article>  
+            <div className={StyleSheet.name}>
+              <h1>Oda</h1>
+              <h1 className={styles.nameIndent}>Bastesen</h1>
+              <h1>Storebø</h1>
+            </div>  
+        </div>      
+        <article>
+              <p>
+                Hei og velkommen til min landingpage.
+                Jeg er utdannet dataingeniør ved Høgskulen på Vestlandet 
+                og driver for tiden å spesialiserer meg innenfor web- og applikasjonsutvikling. 
+              </p>
+              <p>
+              Jeg er intressert å lære mer om brukeropplevelse og brukerinteraksjon.
+                På denne siden finner du min kontaktinformasjon og mine prosjekter.
+                Nettsiden er under utvikling.
+              </p>
+        </article>  
+      </div>
     );
 }
 
