@@ -17,8 +17,9 @@ function About() {
         <article>
               <p>
                 Hei og velkommen til min landingpage.
-                Jeg er utdannet dataingeniør ved Høgskulen på Vestlandet 
-                og driver for tiden å spesialiserer meg innenfor web- og applikasjonsutvikling. 
+                Jeg er utdannet dataingeniør ved Høgskulen på Vestlandet i 2024, 
+                og har igjennom studiet fått god kjennskap til Java. 
+                Jeg driver for tiden å spesialiserer meg innenfor web- og applikasjonsutvikling. 
               </p>
               <p>
               Jeg er intressert å lære mer om brukeropplevelse og brukerinteraksjon.
